@@ -34,8 +34,7 @@ try {
 					if($text == '/start'){
               $bot->sendvideo([ 'chat_id'=>$chatId,
               'video'=>"https://t.me/G_D_W/11",
-                   'caption'=>'𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐇𝗨𝐍𝐓𝐄𝐑 𖢼
-~ @Y_4_V 🍂',
+                   'caption'=>'𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐇𝗨𝐍𝐓𝐄𝐑 𖢼 ~ @Y_4_V 🍂',
                   'inline_keyboard'=>true,
                   'reply_markup'=>json_encode([
                          'keyboard'=>[
@@ -47,7 +46,6 @@ try {
                           [['text'=>'️ما هوا بوت صيد والمتاحات 🤔']],
                           [['text'=>'️- فيديو تخطي حظر وهمي ✅']],
                           [['text'=>'️- فيديو طريقه توصيل الريست 🎬']],
-                          [['text'=>'️تطبيق توصيل الريست🔓']],
                       ]
                   ])
               ]);   
