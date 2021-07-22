@@ -72,18 +72,17 @@ foreach ($users as $user) {
                                 $follow = $info['f'];
                                 $following = $info['ff'];
                                 $media = $info['m'];
-                                bot('sendMessage', ['disable_web_page_preview' => true, 'chat_id' => $id, 'text' => "𝙷𝙸 𝚂𝙸𝚁 𝙷𝚄𝙽𝚃𝙴𝚁💉🖤 
+                                bot('sendMessage', ['disable_web_page_preview' => true, 'chat_id' => $id, 'text' => "𝙷𝙸 𝚂𝙸𝚁 𝙷𝚄𝙽𝚃𝙴𝚁💉🖤
 ━━━━━━━━━━━━
-.☆ . 𝚄𝚂𝙴𝚁 : |$usern`\n 
+.☆ . 𝚄𝚂𝙴𝚁 : `$usern`\n 
 .𖢸 . 𝙴𝙼𝙰𝙸𝙻 : `$mail`\n 
-.☆ . 𝙵𝙾𝙻𝙻𝙾𝚆𝙴𝚁𝚂  : $follow\n 
+.☆ . 𝙵𝙾𝙻𝙻𝙾𝚆𝙴𝚁𝚂 : $follow\n 
 .𖢸 . 𝙵𝙾𝙻𝙻𝙾𝚆𝙸𝙽𝙶 : $following\n 
 .☆. 𝙿𝙾𝚂𝚃 : $media\n
 .𖢸 . 𝚃𝙸𝙼𝙴 : ".date("Y")."/".date("n")."/".date("d")." : " . date('g:i') . "\n" . " 
 ━━━━━━━━━━━━
 ↯Tele↯.                     ↯CH↯\n
-
-:-  @Y_OMO              :-  @TTTPTTTTT",
+:-  @Y_4_V              :-  @TTTPTTTTT",
                                 
                                 'parse_mode'=>'markdown']);
                                 
@@ -159,5 +158,5 @@ foreach ($users as $user) {
         $editAfter += 1;
     }
 }
-bot('sendMessage', ['chat_id' => $id, 'text' =>"انتهى الفحص من الحساب دا يزمكس".explode(':',$screen)[0]]);
+bot('sendMessage', ['chat_id' => $id, 'text' =>"انتهى الفحص : ".explode(':',$screen)[0]]);
 
